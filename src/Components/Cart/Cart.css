@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --balck: #0f1111;
+  --main-body: #e3e6e6;
+  --yellow-btn: #ffd814;
+  --white: #ffffff;
+  --blue: #007185;
+}
+
+.cart-container {
+  background-color: var(--main-body);
+  padding: 30px 150px;
+}
+.cart-container .cart-wrapper .cart-item {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.cart-container .cart-wrapper .cart-item .cart-image {
+  width: 500px;
+  height: 300px;
+}
+.cart-container .cart-wrapper .cart-item .cart-image img {
+  height: 100%;
+  width: 100%;
+}
+.cart-container .cart-wrapper .cart-item .cart-info h2 {
+  color: var(--balck);
+  font-size: 24px;
+}
+.cart-container .cart-wrapper .cart-item .cart-info p {
+  color: var(--blue);
+  font-size: 14px;
+}
+.cart-container .cart-wrapper .cart-item .cart-info .btn-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.cart-container .cart-wrapper .cart-item .cart-info .btn-wrapper button {
+  color: var(--balck);
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+.cart-container .cart-wrapper .cart-item .cart-info .btn-wrapper .signin-btn {
+  background-color: var(--yellow-btn);
+}
+.cart-container .cart-wrapper .cart-item .cart-info .btn-wrapper .signup-btn {
+  background-color: var(--white);
+}/*# sourceMappingURL=Cart.css.map */

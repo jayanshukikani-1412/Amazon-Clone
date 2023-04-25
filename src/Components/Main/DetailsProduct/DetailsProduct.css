@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --link-blue: #007185;
+  --white: #ffffff;
+  --img-body: #f7f8f8;
+  --pink: #cc0c39;
+}
+
+.details-product-container {
+  margin: 0px -200px;
+  background-color: var(--white);
+  padding: 25px;
+  margin-top: 30px;
+}
+.details-product-container .title-wrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.details-product-container .title-wrapper .title {
+  font-size: 20px;
+  color: black;
+}
+.details-product-container .details-product-wrapper {
+  padding: 0 30px;
+}
+.details-product-container .details-product-wrapper .details-product-item {
+  width: 280px;
+}
+.details-product-container .details-product-wrapper .details-product-item .image-wrapper {
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+}
+.details-product-container .details-product-wrapper .details-product-item .image-wrapper .product-image {
+  height: 100%;
+  width: 100%;
+}
+.details-product-container .details-product-wrapper .details-product-item .details-wrapper .product-title a {
+  text-decoration: none;
+  color: var(--link-blue);
+  font-size: 18px;
+}
+.details-product-container .details-product-wrapper .details-product-item .details-wrapper .product-title a:hover {
+  color: var(--pink);
+  text-decoration: underline;
+}
+.details-product-container .details-product-wrapper .details-product-item .details-wrapper .product-price {
+  font-size: 15px;
+}
+.details-product-container .details-product-wrapper .details-product-item .details-wrapper .product-price span {
+  color: var(--pink);
+}
+.details-product-container .details-product-wrapper .details-product-item .details-wrapper .product-review {
+  font-size: 15px;
+  color: var(--pink);
+}
+.details-product-container .details-product-wrapper .details-product-item .details-wrapper .product-desc {
+  font-size: 15px;
+  color: #000001;
+  height: 70px;
+  overflow: hidden;
+}
+.details-product-container .details-product-wrapper .details-product-item .details-wrapper .product-offer {
+  font-size: 12px;
+  color: #787979;
+}/*# sourceMappingURL=DetailsProduct.css.map */

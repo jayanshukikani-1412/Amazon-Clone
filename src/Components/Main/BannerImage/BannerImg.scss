@@ -1,0 +1,10 @@
+.banner-img{
+    width: 100vw;
+    height: 50vh;
+    object-fit: fill;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+.swiper-button-prev::after,.swiper-button-next::after{
+    color: rgb(195, 203, 224);
+}

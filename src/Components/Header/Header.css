@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --header-body: #131921;
+  --header-span: #ccc;
+  --header-white: #fff;
+  --header-grey: #f3f3f3;
+  --header-black: #111;
+  --header-orange: #febd69;
+  --nav-body:#232f3e;
+}
+
+.header-section .header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: var(--header-body);
+}
+.header-section .header-container .header-link {
+  text-decoration: none;
+}
+.header-section .header-container .span-title {
+  color: var(--header-span);
+  font-size: 12px;
+}
+.header-section .header-container .white-title {
+  color: var(--header-white);
+  font-size: 14px;
+  font-weight: 500;
+}
+.header-section .header-container .header-logo-wrapper .logo-img {
+  height: 30px;
+  width: 100x;
+}
+.header-section .header-container .header-address-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.header-section .header-container .header-address-wrapper p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.header-section .header-container .header-search-wrapper .input-wrapper {
+  width: 1144px;
+}
+.header-section .header-container .header-search-wrapper .input-wrapper DropdownButton {
+  background-color: var(--header-grey);
+  color: var(--header-body);
+  font-size: 12px;
+  padding: 5px;
+}
+.header-section .header-container .header-search-wrapper .input-wrapper .search-btn {
+  background-color: var(--header-orange);
+  color: var(--header-black);
+}
+.header-section .header-container .header-language-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-section .header-container .header-language-wrapper .flag-icon {
+  height: 21px;
+  width: 21px;
+  border-radius: 5px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.header-section .header-container .header-signin-wrapper p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.header-section .header-container .header-return-wrapper p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+}
+.header-section .header-container .header-cart-wrapper p {
+  margin-bottom: 0;
+}
+.header-section .header-container .header-cart-wrapper p .cart-icon {
+  height: 26px;
+  width: 38px;
+}
+.header-section .navbar-container {
+  background-color: var(--nav-body);
+  color: var(--header-white);
+  font-size: 14px;
+  display: flex;
+  gap: 0;
+  justify-content: space-between;
+}
+.header-section .navbar-container .navbar-wrapper .navbar-ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-section .navbar-container .navbar-wrapper .navbar-ul .navbar-item {
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  margin: 2px;
+}
+.header-section .navbar-container .navbar-wrapper .navbar-ul .navbar-item:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.header-section .navbar-container .navbar-wrapper .navbar-ul .navbar-item .navbar-link {
+  text-decoration: none;
+  color: var(--header-white);
+  font-size: 14px;
+}
+.header-section .navbar-container .navbar-scheme-wrapper img {
+  height: 37px;
+}/*# sourceMappingURL=Header.css.map */

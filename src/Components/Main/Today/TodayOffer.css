@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --img-body: #f7f8f8;
+  --pink: #cc0c39;
+  --link-blue: #007185;
+}
+
+.today-container {
+  margin-top: 30px;
+  background-color: var(--white);
+  padding: 25px;
+}
+.today-container .title-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.today-container .title-wrapper .title {
+  font-size: 20px;
+  color: black;
+}
+.today-container .title-wrapper .title-link {
+  margin-top: 3px;
+  text-decoration: none;
+  color: var(--link-blue);
+  font-size: 14px;
+}
+.today-container .title-wrapper .title-link:hover {
+  color: var(--pink);
+  text-decoration: underline;
+}
+.today-container .today-wrapper {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.today-container .today-wrapper .today-item {
+  width: 250px;
+}
+.today-container .today-wrapper .today-item .image-wrapper {
+  width: 240px;
+  height: 200px;
+  padding: 10px;
+  background-color: var(--img-body);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.today-container .today-wrapper .today-item .image-wrapper .image {
+  height: 100%;
+  width: 100%;
+}
+.today-container .today-wrapper .today-item .info-wrapper {
+  margin-top: 10px;
+}
+.today-container .today-wrapper .today-item .info-wrapper .btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.today-container .today-wrapper .today-item .info-wrapper .btn-wrapper button {
+  color: var(--white);
+  font-size: 12px;
+  background-color: var(--pink);
+  padding: 2px 8px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+.today-container .today-wrapper .today-item .info-wrapper .btn-wrapper button span {
+  color: var(--white);
+}
+.today-container .today-wrapper .today-item .info-wrapper .btn-wrapper span {
+  color: var(--pink);
+  font-size: 12px;
+  font-weight: 600;
+}
+.today-container .today-wrapper .today-item .info-wrapper .desc-wrapper {
+  margin-top: 5px;
+}
+.today-container .today-wrapper .today-item .info-wrapper .desc-wrapper p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.today-container .today-wrapper .swiper-button-next {
+  margin-top: 0px;
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  width: 45px;
+  height: 45px;
+  transform: translateY(-50%);
+}
+.today-container .today-wrapper .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  width: 45px;
+  height: 45px;
+  transform: translateY(-50%);
+  margin-top: 0px;
+}/*# sourceMappingURL=TodayOffer.css.map */
